@@ -4,10 +4,14 @@
  * @type {import('next').NextConfig}
  **/
 const nextConfig = {
-  output: 'export',
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
   experimental: {
     appDir: true,
   },
 }
 
+// eslint-disable-next-line no-undef
 module.exports = nextConfig
