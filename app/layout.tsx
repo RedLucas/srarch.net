@@ -1,3 +1,7 @@
+import Nav from "./components/Nav"
+import "./globals.css"
+import "@fontsource-variable/raleway"
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +9,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+      </body>
     </html>
   )
 }
