@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@fontsource-variable/raleway": "^5.0.5",
-    "@types/node": "^18.11.5",
+    "@types/node": "^20.4.1",
     "@types/react": "^18.0.23",
     "@types/react-dom": "^18.0.7",
     "next": "latest",
