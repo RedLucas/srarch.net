@@ -1,0 +1,21 @@
+name: build_release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/next-release@v1
+        id: next
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.next.outputs.next-version-tag }}
+          name: "App ${{ steps.next.outputs.next-version }}"
+          body: ${{ steps.next.outputs.changelog }}
+          token: ${{ github.token }}
