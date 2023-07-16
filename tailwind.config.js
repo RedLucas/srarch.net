@@ -14,7 +14,7 @@ module.exports = {
       center: true,
     },
     fontFamily: {
-      sans: ["Raleway Variable", "sans-serif"],
+      sans: ["var(--font-raleway)"],
     },
     extend: {},
   },
