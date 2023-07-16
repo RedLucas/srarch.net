@@ -8,7 +8,7 @@ export default function MemoryLayout({
   return (
     <>
       <h1 className="text-3xl py-10">In Memory of Søren Rasmussen</h1>
-      {children}
+      <main className="container p-3">{children}</main>
     </>
   )
 }
