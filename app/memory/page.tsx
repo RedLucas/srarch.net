@@ -4,14 +4,14 @@ import Link from "next/link"
 
 export default function Memory() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <div>
-        <p>
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div className="order-1 lg:order-none">
+        <p className="pb-5">
           This video was played at the memorial of Søren Rasmussen. Created by
           his sons, Collin and Lucas Rasmussen, it depicts their impression of
           the three stages of Søren's life, through their eyes.
         </p>
-        <p>
+        <p className="pb-5">
           The first stage is depicted by "Throwing it all away" by Genesis. It
           represents the time before the birth of his sons.{" "}
           <Link
@@ -21,7 +21,7 @@ export default function Memory() {
             Link to download
           </Link>
         </p>
-        <p>
+        <p className="pb-5">
           The second stage is also sung by Phil Collins, "You'll be in my
           heart". It represents the time he spent raising his kids.{" "}
           <Link
