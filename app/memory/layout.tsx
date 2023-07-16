@@ -6,9 +6,9 @@ export default function MemoryLayout({
   children: React.ReactNode
 }) {
   return (
-    <section className="container">
+    <>
       <h1 className="text-3xl py-10">In Memory of Søren Rasmussen</h1>
-      {children}
-    </section>
+      <main className="container p-3">{children}</main>
+    </>
   )
 }
