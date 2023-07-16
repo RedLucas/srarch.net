@@ -48,13 +48,22 @@ const HomeCarousel = () => {
           src="/carousel/sunshine-coast.jpg"
           width={1800}
           height={1200}
+          placeholder="blur"
+          blurDataURL="L7F$2{:401LN00~Tsk9c009^~9-P"
         />
       ),
       caption: "Award winning architecture studio",
     },
     {
       image: (
-        <Image src="/carousel/sobre.jpg" alt="" width={1800} height={1200} />
+        <Image
+          src="/carousel/sobre.jpg"
+          alt=""
+          width={1800}
+          height={1200}
+          placeholder="blur"
+          blurDataURL="LdHB}LS*ozoc?wt6j]WVKm-:xZWC"
+        />
       ),
       caption: "Architectural, planning & interior design",
     },
@@ -65,6 +74,8 @@ const HomeCarousel = () => {
           alt=""
           width={1800}
           height={1200}
+          placeholder="blur"
+          blurDataURL="LbG+XVtR%MkW~qoft7t8?bV@jsxb"
         />
       ),
       caption: "Internationally recognized for creativity & originality",
