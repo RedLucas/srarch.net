@@ -1,11 +1,11 @@
-import React from "react"
-import { MemoryVideo } from "../components/MemoryVideo"
-import Link from "next/link"
+import React from "react";
+import { MemoryVideo } from "../components/MemoryVideo";
+import Link from "next/link";
 
 export default function Memory() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-      <div className="order-1 lg:order-none">
+      <div className="order-1 lg:order-none lg:text-justify">
         <p className="pb-5">
           This video was played at the memorial of Søren Rasmussen. Created by
           his sons, Collin and Lucas Rasmussen, it depicts their impression of
@@ -39,5 +39,5 @@ export default function Memory() {
         <MemoryVideo />
       </div>
     </div>
-  )
+  );
 }
