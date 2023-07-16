@@ -32,7 +32,7 @@ export default function RootLayout({
     <html lang="en" className={`${raleway.className} ${raleway.variable}`}>
       <body>
         <Nav />
-        {children}
+        <main className="container p-3">{children}</main>
         <Footer />
       </body>
     </html>

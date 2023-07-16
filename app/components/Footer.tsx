@@ -1,7 +1,7 @@
 const Footer = () => {
   const date = new Date()
   return (
-    <section className="grid grid-cols-2 gap-2 container py-5">
+    <footer className="grid grid-cols-1 md:grid-cols-2 gap-2 container px-3 py-10 max-md:text-center">
       <div className="contact-info">
         {" "}
         <strong>SRA Architect Inc.</strong> Office is now closed following the
@@ -11,10 +11,10 @@ const Footer = () => {
         <strong>E</strong>{" "}
         <a href="mailto:srarch@srarch.net">srarch@srarch.net</a>
       </div>
-      <div className="copyright text-right">
+      <div className="copyright content flex justify-center md:justify-end items-end">
         © {date.getFullYear()} SRA Architect Inc. All Rights Reserved
       </div>
-    </section>
+    </footer>
   )
 }
 
