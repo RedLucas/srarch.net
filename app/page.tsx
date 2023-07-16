@@ -1,3 +1,4 @@
+"use client"
 import HomeCarousel from "./components/HomeCarousel"
 
 const Home = () => {
