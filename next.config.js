@@ -8,10 +8,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    appDir: true,
-  },
-}
+};
 
 // eslint-disable-next-line no-undef
-module.exports = nextConfig
+module.exports = nextConfig;

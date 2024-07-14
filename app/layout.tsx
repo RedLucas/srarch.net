@@ -1,16 +1,16 @@
-import { Metadata } from "next/types"
-import Footer from "./components/Footer"
-import Nav from "./components/Nav"
-import "./globals.css"
+import type { Metadata, Viewport } from "next";
+import Footer from "./components/Footer";
+import Nav from "./components/Nav";
+import "./globals.css";
 
-import { Raleway } from "next/font/google"
+import { Raleway } from "next/font/google";
 
 const raleway = Raleway({
   weight: ["400", "700"],
   subsets: ["latin"],
   display: "swap",
   variable: "--font-raleway",
-})
+});
 
 export const metadata: Metadata = {
   title: "SRA Architect Inc.",
@@ -20,13 +20,16 @@ export const metadata: Metadata = {
     { rel: "apple-touch-icon", sizes: "180x180", url: "/apple-touch-icon.png" },
   ],
   manifest: "/site.webmanifest",
-  themeColor: "#ffffff",
-}
+};
+
+export const viewport: Viewport = {
+  themeColor: "black",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className={`${raleway.className} ${raleway.variable}`}>
@@ -36,5 +39,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }
