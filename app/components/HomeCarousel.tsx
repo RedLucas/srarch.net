@@ -137,7 +137,7 @@ const HomeCarousel = () => {
       autoPlay={true}
     >
       {slides.map((slide, index) => (
-        <div className="relative" key={index}>
+        <div className="relative flex justify-center" key={index}>
           {slide.image}
           <p className="legend absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl md:text-3xl lg:text-4xl text-center min-w-full uppercase drop-shadow-[1px_1px_5px_black]">
             {slide.caption}
