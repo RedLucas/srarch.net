@@ -5,6 +5,8 @@ import "./globals.css";
 
 import { Raleway } from "next/font/google";
 
+export const runtime = "edge";
+
 const raleway = Raleway({
   weight: ["400", "700"],
   subsets: ["latin"],

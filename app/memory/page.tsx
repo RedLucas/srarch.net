@@ -1,8 +1,6 @@
 import React from "react";
 import { MemoryVideo } from "../components/MemoryVideo";
 
-export const runtime = "edge";
-
 export default function Memory() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
