@@ -22,7 +22,7 @@
     "typescript": "^5.1.6"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.12.1",
+    "@cloudflare/next-on-pages": "^1.13.12",
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
