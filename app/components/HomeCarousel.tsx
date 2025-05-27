@@ -1,22 +1,16 @@
-"use client";
-import React from "react";
-import Carousel from "react-multi-carousel";
-import { ButtonGroupProps, ArrowProps } from "react-multi-carousel/lib/types";
-import "react-multi-carousel/lib/styles.css";
-import {
-  FontAwesomeIcon,
-  FontAwesomeIconProps,
-} from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
 import Image from "next/image";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/autoplay";
+import NavigationButton from "./NavigationButton";
+import SlideCaption from "./SlideCaption";
 
-interface CarouselButtonGroupProps extends ButtonGroupProps {
-  className?: string;
-}
-
-interface CarouselArrowProps extends ArrowProps {
-  className?: string;
-  arrowSize?: FontAwesomeIconProps["size"];
+interface SwiperCssProperties extends React.CSSProperties {
+  "--swiper-pagination-color": string;
 }
 
 const HomeCarousel = () => {
@@ -50,6 +44,7 @@ const HomeCarousel = () => {
           height={1200}
           placeholder="blur"
           blurDataURL="L7F$2{:401LN00~Tsk9c009^~9-P"
+          className="inline"
         />
       ),
       caption: "Award winning architecture studio",
@@ -63,6 +58,7 @@ const HomeCarousel = () => {
           height={1200}
           placeholder="blur"
           blurDataURL="LdHB}LS*ozoc?wt6j]WVKm-:xZWC"
+          className="inline"
         />
       ),
       caption: "Architectural, planning & interior design",
@@ -76,75 +72,63 @@ const HomeCarousel = () => {
           height={1200}
           placeholder="blur"
           blurDataURL="LbG+XVtR%MkW~qoft7t8?bV@jsxb"
+          className="inline"
         />
       ),
       caption: "Internationally recognized for creativity & originality",
     },
   ];
 
-  const CustomLeftArrow = ({
-    onClick,
-    className,
-    arrowSize,
-  }: CarouselArrowProps) => {
-    return (
-      <button className={className} onClick={() => onClick && onClick()}>
-        <FontAwesomeIcon icon={faArrowLeft} size={arrowSize} />
-      </button>
-    );
-  };
-
-  const CustomRightArrow = ({
-    onClick,
-    className,
-    arrowSize,
-  }: CarouselArrowProps) => {
-    return (
-      <button className={className} onClick={() => onClick && onClick()}>
-        <FontAwesomeIcon icon={faArrowRight} size={arrowSize} />
-      </button>
-    );
-  };
-
-  const CustomButtonGroupAsArrows = ({
-    next,
-    previous,
-  }: CarouselButtonGroupProps) => {
+  const SwiperNavigationAsArrows = () => {
+    const swiper = useSwiper();
     const buttonClassName =
       "text-white border-white border-2 rounded-full w-10 h-10 hover:text-zinc-200 hover:border-zinc-200";
     return (
-      <div className="absolute right-3 bottom-3 ">
-        <CustomLeftArrow
+      <div className="absolute right-3 bottom-3 z-50">
+        <NavigationButton
           className={`${buttonClassName} mr-3`}
-          onClick={previous}
+          onClick={() => swiper.slidePrev()}
+          arrowIcon={faArrowLeft}
           arrowSize="lg"
         />
-        <CustomRightArrow
-          className={buttonClassName}
-          onClick={next}
+        <NavigationButton
+          className={`${buttonClassName}`}
+          onClick={() => swiper.slideNext()}
+          arrowIcon={faArrowRight}
           arrowSize="lg"
         />
       </div>
     );
   };
 
+  const swiperCssProperties: SwiperCssProperties = {
+    "--swiper-pagination-color": "white",
+  };
+  const [showCaption, setShowCaption] = useState(false);
+
   return (
-    <Carousel
-      responsive={responsive}
-      customButtonGroup={<CustomButtonGroupAsArrows />}
-      arrows={false}
-      infinite={true}
-      autoPlay={true}
-    >
-      {slides.map((slide, index) => (
-        <div className="relative flex justify-center" key={index}>
-          {slide.image}
-          <p className="legend absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl md:text-3xl lg:text-4xl text-center min-w-full uppercase drop-shadow-[1px_1px_5px_black]">
-            {slide.caption}
-          </p>
-        </div>
-      ))}
-    </Carousel>
+    <Swiper
+      modules={[Pagination, Autoplay]}
+      loop={true}
+      pagination={{ clickable: true }}
+      autoplay={{ delay: 5000 }}
+      style={swiperCssProperties}
+      speed={1000}
+      centeredSlides={true}
+      onSlideChangeTransitionEnd={() => {
+        setShowCaption(true);
+      }}
+      >
+      {slides.map((slide, index) => {
+        return (
+          <SwiperSlide key={index} className="text-center">
+            {slide.image}
+            <SlideCaption showCaption={showCaption} caption={slide.caption}/>
+          </SwiperSlide>
+        )
+      })}
+      <SwiperNavigationAsArrows />
+    </Swiper>
   );
 };
 
