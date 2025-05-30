@@ -1,10 +1,10 @@
-"use client"
-import HomeCarousel from "./components/HomeCarousel"
+import Carousel from "./components/Carousel"
 
-const Home = () => {
+const Home = async () => {
+  const {slides} = (await import("./manifest.json")).default;
   return (
     <div>
-      <HomeCarousel />
+      <Carousel slides={slides} />
     </div>
   )
 }

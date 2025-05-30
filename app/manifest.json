@@ -1,0 +1,31 @@
+{
+  "slides": [
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast.jpg",
+        "alt": "",
+        "width": 1800,
+        "height": 1200
+      },
+      "caption": "Award winning architecture studio"
+    },
+    {
+      "image": {
+        "src": "/carousel/sobre.jpg",
+        "alt": "",
+        "width": 1800,
+        "height": 1200
+      },
+      "caption": "Architectural, planning & interior design"
+    },
+    {
+      "image": {
+        "src": "/carousel/waterfront.jpg",
+        "alt": "",
+        "width": 1800,
+        "height": 1200
+      },
+      "caption": "Internationally recognized for creativity & originality"
+    }
+  ]
+}

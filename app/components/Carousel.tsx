@@ -1,5 +1,6 @@
+"use client"
 import React, { useState } from "react";
-import Image from "next/image";
+import Image, { ImageProps } from "next/image";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
@@ -13,71 +14,14 @@ interface SwiperCssProperties extends React.CSSProperties {
   "--swiper-pagination-color": string;
 }
 
-const HomeCarousel = () => {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 1,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 1,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
+interface Slide {
+  image: ImageProps;
+  caption?: string;
+}
 
-  const slides: { image: JSX.Element; caption: React.ReactNode }[] = [
-    {
-      image: (
-        <Image
-          alt=""
-          src="/carousel/sunshine-coast.jpg"
-          width={1800}
-          height={1200}
-          placeholder="blur"
-          blurDataURL="L7F$2{:401LN00~Tsk9c009^~9-P"
-          className="inline"
-        />
-      ),
-      caption: "Award winning architecture studio",
-    },
-    {
-      image: (
-        <Image
-          src="/carousel/sobre.jpg"
-          alt=""
-          width={1800}
-          height={1200}
-          placeholder="blur"
-          blurDataURL="LdHB}LS*ozoc?wt6j]WVKm-:xZWC"
-          className="inline"
-        />
-      ),
-      caption: "Architectural, planning & interior design",
-    },
-    {
-      image: (
-        <Image
-          src="/carousel/waterfront.jpg"
-          alt=""
-          width={1800}
-          height={1200}
-          placeholder="blur"
-          blurDataURL="LbG+XVtR%MkW~qoft7t8?bV@jsxb"
-          className="inline"
-        />
-      ),
-      caption: "Internationally recognized for creativity & originality",
-    },
-  ];
+
+const Carousel = ({ slides }: { slides: Slide[] }) => {
+
 
   const SwiperNavigationAsArrows = () => {
     const swiper = useSwiper();
@@ -122,14 +66,14 @@ const HomeCarousel = () => {
       {slides.map((slide, index) => {
         return (
           <SwiperSlide key={index} className="text-center">
-            {slide.image}
-            <SlideCaption showCaption={showCaption} caption={slide.caption}/>
+            <Image {...slide.image} className={slide.image?.className ?? "" + " inline"} />
+            {slide.caption && <SlideCaption showCaption={showCaption} caption={slide.caption}/>}
           </SwiperSlide>
         )
       })}
-      <SwiperNavigationAsArrows />
+      {slides.length > 1 && <SwiperNavigationAsArrows />}
     </Swiper>
   );
 };
 
-export default HomeCarousel;
+export default Carousel;
