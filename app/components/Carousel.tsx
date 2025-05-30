@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React from "react";
 import Image, { ImageProps } from "next/image";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
@@ -47,8 +47,8 @@ const Carousel = ({ slides }: { slides: Slide[] }) => {
 
   const swiperCssProperties: SwiperCssProperties = {
     "--swiper-pagination-color": "white",
+    maxWidth: "1800px",
   };
-  const [showCaption, setShowCaption] = useState(false);
 
   return (
     <Swiper
@@ -59,15 +59,12 @@ const Carousel = ({ slides }: { slides: Slide[] }) => {
       style={swiperCssProperties}
       speed={1000}
       centeredSlides={true}
-      onSlideChangeTransitionEnd={() => {
-        setShowCaption(true);
-      }}
       >
       {slides.map((slide, index) => {
         return (
           <SwiperSlide key={index} className="text-center">
             <Image {...slide.image} className={slide.image?.className ?? "" + " inline"} />
-            {slide.caption && <SlideCaption showCaption={showCaption} caption={slide.caption}/>}
+            {slide.caption && <SlideCaption caption={slide.caption}/>}
           </SwiperSlide>
         )
       })}
