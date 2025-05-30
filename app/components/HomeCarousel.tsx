@@ -103,6 +103,7 @@ const HomeCarousel = () => {
 
   const swiperCssProperties: SwiperCssProperties = {
     "--swiper-pagination-color": "white",
+    maxWidth: "1800px",
   };
   const [showCaption, setShowCaption] = useState(false);
 
@@ -121,9 +122,9 @@ const HomeCarousel = () => {
       >
       {slides.map((slide, index) => {
         return (
-          <SwiperSlide key={index} className="text-center">
+          <SwiperSlide key={index} className="text-center relative">
             {slide.image}
-            <SlideCaption showCaption={showCaption} caption={slide.caption}/>
+            <SlideCaption caption={slide.caption}/>
           </SwiperSlide>
         )
       })}
