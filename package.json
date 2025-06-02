@@ -31,7 +31,7 @@
     "eslint-plugin-react": "^7.32.2",
     "postcss": "^8.5.3",
     "stylelint": "^15.10.1",
-    "stylelint-config-recommended": "^13.0.0",
+    "stylelint-config-recommended": "^16.0.0",
     "stylelint-config-tailwindcss": "^0.0.7",
     "tailwindcss": "^4.1.7",
     "typescript": "^5.1.6"
