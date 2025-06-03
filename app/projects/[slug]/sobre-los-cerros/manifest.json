@@ -1,8 +1,9 @@
 {
+  "categories": ["Residential"],
   "slides": [
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-01.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-01.jpg",
         "alt": "Sobre Los Cerros - Exterior View",
         "width": 1800,
         "height": 1200
@@ -10,7 +11,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-02.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-02.jpg",
         "alt": "Sobre Los Cerros - Architectural Detail",
         "width": 1800,
         "height": 1200
@@ -18,7 +19,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-05.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-05.jpg",
         "alt": "Sobre Los Cerros - Perspective View",
         "width": 1800,
         "height": 1200
@@ -26,7 +27,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-06.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-06.jpg",
         "alt": "Sobre Los Cerros - Interior Space",
         "width": 1800,
         "height": 1200
@@ -34,7 +35,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-07.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-07.jpg",
         "alt": "Sobre Los Cerros - Landscape Integration",
         "width": 1800,
         "height": 1200
@@ -42,7 +43,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-08.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-08.jpg",
         "alt": "Sobre Los Cerros - Structural Elements",
         "width": 1800,
         "height": 1200
@@ -50,7 +51,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-09.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-09.jpg",
         "alt": "Sobre Los Cerros - Design Detail",
         "width": 1800,
         "height": 1200
@@ -58,7 +59,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-10.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-10.jpg",
         "alt": "Sobre Los Cerros - Exterior Perspective",
         "width": 1800,
         "height": 1200
@@ -66,7 +67,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-11.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-11.jpg",
         "alt": "Sobre Los Cerros - Architectural Feature",
         "width": 1800,
         "height": 1200
@@ -74,7 +75,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-12.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-12.jpg",
         "alt": "Sobre Los Cerros - Interior Detail",
         "width": 1800,
         "height": 1200
@@ -82,7 +83,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-15.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-15.jpg",
         "alt": "Sobre Los Cerros - Spatial Design",
         "width": 1800,
         "height": 1200
@@ -90,7 +91,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-16.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-16.jpg",
         "alt": "Sobre Los Cerros - Material Detail",
         "width": 1800,
         "height": 1200
@@ -98,7 +99,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-18.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-18.jpg",
         "alt": "Sobre Los Cerros - Exterior View",
         "width": 1800,
         "height": 1200
@@ -106,7 +107,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-20.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-20.jpg",
         "alt": "Sobre Los Cerros - Architectural Composition",
         "width": 1800,
         "height": 1200
@@ -114,7 +115,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-22.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-22.jpg",
         "alt": "Sobre Los Cerros - Design Element",
         "width": 1800,
         "height": 1200
@@ -122,7 +123,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-23.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-23.jpg",
         "alt": "Sobre Los Cerros - Structural View",
         "width": 1800,
         "height": 1200
@@ -130,7 +131,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-27.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-27.jpg",
         "alt": "Sobre Los Cerros - Detail Shot",
         "width": 1800,
         "height": 1200
@@ -138,7 +139,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-28.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-28.jpg",
         "alt": "Sobre Los Cerros - Interior Perspective",
         "width": 1800,
         "height": 1200
@@ -146,7 +147,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-29.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-29.jpg",
         "alt": "Sobre Los Cerros - Architectural Detail",
         "width": 1800,
         "height": 1200
@@ -154,7 +155,7 @@
     },
     {
       "image": {
-        "src": "/carousel/sobre-los-cerros/Sobre-30.jpg",
+        "src": "/carousel/sobre-los-cerros/sobre-30.jpg",
         "alt": "Sobre Los Cerros - Final View",
         "width": 1800,
         "height": 1200
