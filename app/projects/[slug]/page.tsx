@@ -6,9 +6,7 @@ interface PageProps {
 }
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
-  return [
-    { slug: "sobre-los-cerros" },
-  ];
+  return [{ slug: "sobre-los-cerros" }, { slug: "bowen-island" }];
 }
 
 export default async function Project({ params }: PageProps) {
