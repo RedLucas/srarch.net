@@ -12,11 +12,15 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.512.0",
     "next": "latest",
     "react": "^19.0.2",
     "react-dom": "^19.0.2",
     "serve": "^14.2.0",
-    "swiper": "^11.2.8"
+    "swiper": "^11.2.8",
+    "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.12",
@@ -36,6 +40,7 @@
     "stylelint-config-recommended": "^16.0.0",
     "stylelint-config-tailwindcss": "^1.0.0",
     "tailwindcss": "^4.1.7",
+    "tw-animate-css": "^1.3.3",
     "typescript": "^5.1.6"
   }
 }
