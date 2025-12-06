@@ -1,0 +1,68 @@
+{
+  "slides": [
+    {
+      "image": {
+        "src": "/carousel/bowen-island/bowen-01.jpg",
+        "alt": "Bowen Island Image 1",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/bowen-island/bowen-02.jpg",
+        "alt": "Bowen Island Image 2",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/bowen-island/bowen-03.jpg",
+        "alt": "Bowen Island Image 3",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/bowen-island/bowen-04.jpg",
+        "alt": "Bowen Island Image 4",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/bowen-island/bowen-05.jpg",
+        "alt": "Bowen Island Image 5",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/bowen-island/bowen-06.jpg",
+        "alt": "Bowen Island Image 6",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/bowen-island/bowen-07.jpg",
+        "alt": "Bowen Island Image 7",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/bowen-island/bowen-08.jpg",
+        "alt": "Bowen Island Image 8",
+        "width": 1800,
+        "height": 1200
+      }
+    }
+  ]
+}
