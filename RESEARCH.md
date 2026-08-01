@@ -190,6 +190,57 @@ Attribution from the firm's own site — the surviving portfolio URL (above).
 - No published obituary was found. No education, birthplace, immigration
   date, or firm founding year could be recovered from public sources.
 
+## Image recovery plan
+
+The text-only project pages (Sam Kee, The Landing, Steamworks, McLean
+Hall, Parker Island) lack photos only because the research session's
+**Trusted** network policy blocks every image host (Wikimedia, Flickr,
+the Wayback Machine — all verified blocked at the proxy). The photos
+themselves exist and are already located:
+
+**To unblock**: at [claude.ai/code](https://claude.ai/code), select the
+cloud icon showing the environment name (row above the message box) →
+hover the environment → settings gear → **Network access** → choose
+**Full**, or **Custom** with at least:
+
+```text
+upload.wikimedia.org
+commons.wikimedia.org
+web.archive.org
+```
+
+(Keep "Also include default list of common package managers" checked.)
+The change applies to sessions started afterward — start a fresh session
+on this branch and ask Claude to fetch the images below.
+
+**Per-project image sources:**
+
+- **Sam Kee Building** — Wikimedia Commons
+  [Category:Sam Kee Building](https://commons.wikimedia.org/wiki/Category:Sam_Kee_Building),
+  e.g. [Sam Kee Building, 16 May 2024](https://commons.wikimedia.org/wiki/File:Sam_Kee_Building,_16_May_2024.jpg)
+  (CC BY-SA 4.0) and a side view; the category also holds a Dec 1937
+  historic photo.
+- **The Landing** — Commons [Category:Gastown](https://commons.wikimedia.org/wiki/Category:Gastown)
+  / search "The Landing Vancouver Water Street"; the building at 375
+  Water St is widely photographed.
+- **Steamworks Brew Pub** — Commons search "Steamworks Vancouver";
+  street-level photos of 375 Water St's western end exist.
+- **All original portfolio photos** (Parker Island, Sunshine Coast,
+  possibly The Landing and more) — the Wayback Machine's copies of
+  `srarch.net/portfolio/*`: list every archived asset via
+  `web.archive.org/cdx/search/cdx?url=srarch.net&matchType=domain`,
+  then download the `/wp-content/uploads/...` image captures. These are
+  the firm's own photos — the best possible source.
+- **McLean Hall** — interior photos are unlikely to be openly licensed;
+  best sources are the family archive or St. George's School
+  (communications office / archives).
+
+**Licensing note**: Commons photos are third-party (mostly CC BY / CC
+BY-SA) and require a visible credit — add a caption or note line like
+"Photo: <author>, CC BY-SA 4.0, via Wikimedia Commons" on any page
+using one. Wayback copies of the firm's own portfolio photos are the
+family's own material and need no credit.
+
 ## Open leads for the family
 
 1. **Wayback Machine** (from an unrestricted network):
