@@ -2,6 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+const links = [
+  { href: "/projects", label: "Projects" },
+  { href: "/about", label: "About" },
+  { href: "/memory", label: "In Memory" },
+];
+
 const Nav = () => {
   return (
     <header className="container p-3">
@@ -10,22 +16,15 @@ const Nav = () => {
           <Link href="/">
             <Image src="/Logo.png" alt="SRA Logo" width="56" height="56" />
           </Link>
-          {/* <h1 className="p-3">Soren Rasmussen Architects</h1> */}
+          <h1 className="p-3 max-sm:hidden">Soren Rasmussen Architects Inc.</h1>
         </div>
-        {/* <div className="">
-          <Link className="p-2" href="">
-            About
-          </Link>
-          <Link className="p-2" href="">
-            About
-          </Link>
-          <Link className="p-2" href="">
-            About
-          </Link>
-          <Link className="p-2" href="">
-            About
-          </Link>
-        </div> */}
+        <nav>
+          {links.map(({ href, label }) => (
+            <Link key={href} className="p-2 whitespace-nowrap" href={href}>
+              {label}
+            </Link>
+          ))}
+        </nav>
       </div>
     </header>
   );

@@ -4,6 +4,8 @@ A replacement site for the late Søren Rasmussen's now-defunct SRA business' sit
 
 The site is currently not live but is available for the most part of wayback machine. The intent is to restore the site to close to how it was originally, with some alterations based on the current situation.
 
+See [RESEARCH.md](./RESEARCH.md) for everything recovered about the firm and its projects — sources for every claim on the site, and open leads for filling in the hidden work-in-progress project pages.
+
 Learn more: <https://nextjs.org/docs/app/building-your-application/deploying/static-exports>
 
 ## How to use

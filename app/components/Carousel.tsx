@@ -61,9 +61,10 @@ const Carousel = ({ slides }: { slides: Slide[] }) => {
       centeredSlides={true}
       >
       {slides.map((slide, index) => {
+        const { alt = "", className, ...imageProps } = slide.image;
         return (
           <SwiperSlide key={index} className="text-center">
-            <Image {...slide.image} className={slide.image?.className ?? "" + " inline"} />
+            <Image {...imageProps} alt={alt} className={`${className ?? ""} inline`} />
             {slide.caption && <SlideCaption caption={slide.caption}/>}
           </SwiperSlide>
         )

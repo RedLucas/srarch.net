@@ -1,0 +1,17 @@
+{
+  "description": [
+    "An award-winning retreat on British Columbia's Sunshine Coast. Heavy timber post-and-beam construction rises from a base of local stone, with floor-to-ceiling glazing wrapping the main living pavilion so the house reads as a lantern in the forest after dark.",
+    "Exposed Douglas fir rafters carry a soaring gabled roof over the great room, while a flat-roofed concrete-and-cedar wing steps quietly behind it. Terraces and a pool extend the living space into the landscape — architecture shaped by the Coast's geography of rock, forest and water."
+  ],
+  "note": "Recognized among the firm's award-winning projects (Sunshine Coast Retreat, BC).",
+  "slides": [
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast.jpg",
+        "alt": "Sunshine Coast Retreat — timber, stone and glass living pavilion glowing at dusk beside the pool terrace",
+        "width": 1800,
+        "height": 1200
+      }
+    }
+  ]
+}
