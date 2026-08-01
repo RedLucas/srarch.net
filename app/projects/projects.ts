@@ -112,17 +112,17 @@ export const projects: ProjectMeta[] = [
     hidden: true,
   },
   {
-    slug: "garden-residence",
-    title: "Garden Residence",
+    slug: "collingwood-street-residence",
+    title: "Collingwood Street Residence",
+    location: "Vancouver, BC",
     type: "Private Residence",
     summary:
-      "A West Coast modern house and garden with timber pergola and koi pond, from the studio's archive.",
+      "The architect's own family home — a West Coast modern house and garden with timber pergola and koi pond.",
     cover: {
-      src: "/carousel/back-yard/back-yard.jpg",
+      src: "/carousel/collingwood-street/back-yard.jpg",
       width: 1800,
       height: 1350,
     },
-    hidden: true,
   },
   {
     slug: "mathers-avenue-residence",
