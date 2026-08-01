@@ -113,7 +113,10 @@ Attribution from the firm's own site — the surviving portfolio URL (above).
   (2020)** — "S. Rasmussen, Principal of SRA Architects Inc." presented at
   the District of West Vancouver Board of Variance, Oct 21, 2020:
   <https://westvancouver.ca/sites/default/files/dwv/assets/be-involved/Committees-Groups/Boards/Board-of-Variance/2020/October/2020%2010%2021%20SEVERED%20BOARD%20OF%20VARIANCE%20PACKAGE.pdf>
-- **Westmount Residence** — named only in one snippet of the RTF profile.
+- **Westmount Residence** — appeared in a single search snippet of the RTF
+  profile but could not be reproduced by any later query; the adversarial
+  verification pass judged the project's existence unsupported, so it has
+  been **excluded from the site** (kept here as a lead only).
 - **Wilmar Residence proposal (2013)** — SRA named in the Vancouver
   Heritage Commission agenda of Jan 21, 2013
   (<https://vancouver.ca/docs/council/vher20130121ag.pdf>); the built 2015+

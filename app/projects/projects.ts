@@ -25,7 +25,7 @@ export const projects: ProjectMeta[] = [
     location: "Sunshine Coast, BC",
     type: "Private Residence",
     summary:
-      "An award-winning timber, stone and glass retreat on British Columbia's Sunshine Coast.",
+      "A timber, stone and glass retreat on British Columbia's Sunshine Coast.",
     cover: {
       src: "/carousel/sunshine-coast.jpg",
       width: 1800,
@@ -132,15 +132,6 @@ export const projects: ProjectMeta[] = [
     year: "2020",
     summary:
       "An accessory building in Altamont, West Vancouver — one of the studio's final projects.",
-    hidden: true,
-  },
-  {
-    slug: "westmount",
-    title: "Westmount Residence",
-    location: "West Vancouver, BC",
-    type: "Private Residence",
-    summary:
-      "A West Vancouver residence named among the firm's award-winning projects.",
     hidden: true,
   },
   {
