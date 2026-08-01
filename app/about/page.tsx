@@ -83,11 +83,6 @@ export default function About() {
 
       <div className="max-w-prose">
         <h2 className="pb-3">The Studio</h2>
-        <ul className="pb-4">
-          <li>Søren Rasmussen — Principal</li>
-          <li>Malcolm Candler — Associate</li>
-          <li>Lisa Kwan — Intern Architect</li>
-        </ul>
         <p className="pb-4 text-sm text-zinc-600">
           Over the years the studio worked from #450 – 375 Water Street in
           Gastown (inside The Landing), #120 – 1412 W 7th Avenue in Fairview,

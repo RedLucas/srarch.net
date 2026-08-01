@@ -10,6 +10,46 @@ reachable from the research environment, so everything below was recovered
 from live search indexes, third-party scrapes of srarch.net, public records
 and press coverage.
 
+## Provenance — where each piece of new site data came from
+
+Everything added to the site in the August 2026 rebuild traces to one of
+four kinds of source:
+
+1. **The family's own repos** — this repo's pre-existing images
+   (`sunshine-coast.jpg`, `sobre.jpg` + the Sobre Los Cerros gallery,
+   `waterfront.jpg`) and the 2013
+   [Soren-Rasmussen-Architects](https://github.com/RedLucas/Soren-Rasmussen-Architects)
+   repo (SRA logo SVG, the Sidney Cannery elevation drawing
+   `working-files/sidney.png`, the `back-yard.jpg` photo, and the About
+   mockup with the LEED Certified / Simplicity / Worldwide values).
+2. **Traces of the original srarch.net** preserved by search indexes and
+   scrapers (homepage title and description, the `/portfolio/` URL
+   pattern, the Parker Island Residence page, the site footer).
+3. **Public records and institutional pages** — Canadian Register of
+   Historic Places, City of Vancouver licence/FOI/heritage documents,
+   District of West Vancouver Board of Variance, St. George's School.
+4. **Press and reference works** — Business in Vancouver, Vancouver
+   Courier (via Vancouver Is Awesome), the Changing Vancouver history
+   blog, *Exploring Vancouver* (Kalman & Ward), Trends Ideas, Wikipedia.
+
+Per page:
+
+| Page | New data | Source (detailed citations below) |
+|---|---|---|
+| `/projects/sam-kee-building` | 1986 rehabilitation for Jack Chow; glass sidewalk blocks; neon sign; heritage awards; 2011 alterations | Canadian Register of Historic Places; Wikipedia; jackchow.com; *Exploring Vancouver*; 2011 permit reference |
+| `/projects/the-landing` | 1988 Kelly Douglas warehouse conversion; later SRA office inside the building | Changing Vancouver blog; RTF Top-100 profile; City of Vancouver FOI release |
+| `/projects/steamworks-brew-pub` | 1995 retrofit; co-founder with Eli Gershkovitch; 1997 buy-out; steam-brewing detail | Business in Vancouver; Vancouver Courier archive |
+| `/projects/mclean-hall` | Early-1990s interior; David McLean commission; hall's role at the school | St. George's School "Builders" page |
+| `/projects/parker-island-residence` | Existence + island location | Surviving srarch.net portfolio URL; Wikipedia (island only) |
+| `/projects/sunshine-coast-retreat` | "Named among the firm's award-winning projects" framing | RTF Top-100 profile (paraphrasing the firm's own site); photo already in this repo |
+| `/projects/sobre-los-cerros` | Description written from the family's photos only — **no external source exists** | This repo's gallery |
+| `/projects/waterfront-house` (hidden) | Glazing, materials, master-bath details, publication | Trends Ideas story + book US2708 |
+| `/projects/sidney-cannery` (hidden) | Drawing; historic-cannery context; possible built referent | 2013 repo (drawing); onthisspot.ca / hmdb.org; sidneywaterfrontinn.com |
+| `/projects/garden-residence` (hidden) | Photo only — identity unknown | 2013 repo (`back-yard.jpg`) |
+| `/projects/mathers-avenue-residence` (hidden) | 2020 variance hearing, address | District of West Vancouver Board of Variance package |
+| `/projects/wilmar-residence` (hidden) | 2013 Heritage Commission mention; later scheme not SRA's | Vancouver Heritage Commission agenda; press on the 2015+ redevelopment |
+| `/about` | Firm description; scope/regions; heritage-work narrative; office history; values trio | srarch.net homepage description (via ZoomInfo); RTF profile; project sources above; business-licence + FOI records; 2013 mockup |
+
 ## The original srarch.net
 
 - Homepage title: **"SRA Architect Inc."**; its description (preserved by
