@@ -1,0 +1,164 @@
+# Research notes — recovering Soren Rasmussen Architects Inc.
+
+This file documents what was recovered about the firm and its projects, the
+sources behind every claim on the rebuilt site, and the leads that remain
+open. It exists so future edits can distinguish **verified fact** from
+**family knowledge** from **open question**.
+
+Research date: August 2026. The Wayback Machine (web.archive.org) was not
+reachable from the research environment, so everything below was recovered
+from live search indexes, third-party scrapes of srarch.net, public records
+and press coverage.
+
+## The original srarch.net
+
+- Homepage title: **"SRA Architect Inc."**; its description (preserved by
+  ZoomInfo, which scrapes company sites):
+  *"SRA Architect Inc. is an award-winning architecture studio recognized
+  internationally for its creativity and originality in architectural
+  design, planning, and interior design."*
+  <https://www.zoominfo.com/c/sra-architect-inc/254001391>
+- The site had a WordPress-style portfolio at `/portfolio/<slug>/`. The one
+  surviving indexed portfolio URL:
+  `http://srarch.net/portfolio/parker-island-residence/`
+- Site-wide footer block (from the indexed snippet of that page):
+  *"SRA Architect Inc. #120 - 1412 W 7th Avenue, Vancouver BC V6H1C1,
+  T 604 681 4292, E srarch@srarch.net"*
+- Firm profile text preserved in Re-Thinking The Future's "Top 100
+  Architects in Vancouver" (page 9, cites srarch.net): unique client-based
+  designs from traditional to modern; awards including "Sunshine Coast
+  Retreat BC" and "The Landing 375 Water St. Vancouver" (one snippet also
+  names "Westmount Vancouver"); scope "Architecture and Interiors for
+  Commercial and Residential projects"; built work in "British Columbia,
+  Alberta, and Western States".
+  <https://www.re-thinkingthefuture.com/top-architects/a4108-architects-in-vancouver-top-100-architects-in-vancouver/9/>
+
+## Confirmed projects (multiple / authoritative sources)
+
+### Sam Kee Building rehabilitation, 8 West Pender St, Vancouver (1986)
+The world's narrowest commercial building (Guinness), rehabilitated for
+Jack Chow. "A rehabilitation of the Sam Kee Building for Jack Chow was
+designed by Soren Rasmussen Architect and completed in 1986."
+- Canadian Register of Historic Places:
+  <https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=2814>
+- <https://en.wikipedia.org/wiki/Sam_Kee_Building> (CA$250,000 renovation;
+  hired after Chow bought the building in 1985)
+- <https://www.jackchow.com/about/jack-chow-building> ("garnering Chow
+  several heritage awards, and a Guinness World Record Certificate")
+- Kalman & Ward, *Exploring Vancouver* ("Subsequent rehabilitation (Soren
+  Rasmussen 1986) was commissioned by a new owner, Jack Chow.")
+- Follow-up: 2011 heritage alteration application, Project No. DE415084,
+  applicant contact "Lisa Kwan, Soren Rasmussen Architects Inc" (surfaced
+  via search synthesis around <https://changingvancouver.wordpress.com/tag/sam-kee/>;
+  verify against City of Vancouver records).
+
+### The Landing (Kelly Douglas Building), 375 Water St, Vancouver (1988)
+"In 1988 Soren Rasmussen designed the conversion of the complex to office,
+retail and restaurant use, nowadays called 'The Landing'."
+- <https://changingvancouver.wordpress.com/2015/06/25/the-landing-water-street/>
+- Named as an award-winning SRA project in the RTF Top-100 profile (above).
+- Context: <https://nitvancouver.com/project/the-landing-375-water-street/>
+- The studio itself was later at #450 – 375 Water Street (ca. 2007), per a
+  City of Vancouver FOI release: <https://vancouver.ca/files/cov/2018-305-release.pdf>
+
+### Steamworks Brew Pub, 375 Water St, Vancouver (1995)
+Rasmussen was architect of the retrofit **and co-founding partner**; Eli
+Gershkovitch bought him out in 1997.
+- Business in Vancouver profile of Gershkovitch ("Gershkovitch bought out
+  his initial Steamworks partner, architect Soren Rasmussen, in 1997"):
+  <https://www.biv.com/news/retail-manufacturing/profile-eli-gershkovitch-ceo-steamworks-group-comp-8246169>
+- Vancouver Courier archive ("He partnered with architect Soren Rasmussen
+  to do a retrofit"):
+  <https://www.vancouverisawesome.com/courier-archive/living/steamworks-is-much-more-than-a-brew-pub-2970103>
+
+### McLean Hall interior, St. George's School, Vancouver (early 1990s)
+"In the early 1990s, when David [McLean] spearheaded the design of McLean
+Hall, he engaged Soren Rasmussen, Architect, to design the interior..."
+- <https://www.stgeorges.bc.ca/welcome/mission-vision-values/builders-of-st-georges-school>
+- The hall was converted to the McLean Music Hall in 2025–26 (not SRA work).
+
+### Parker Island Residence, Southern Gulf Islands, BC
+Attribution from the firm's own site — the surviving portfolio URL (above).
+
+## Projects from the firm's archive (no public record found)
+
+- **Sunshine Coast Retreat** — photo in this repo
+  (`public/carousel/sunshine-coast.jpg`); named as award-winning in the RTF
+  profile. No award program or press coverage found.
+- **Sobre Los Cerros** — 20 photos in this repo. **No public web record of
+  this project exists under any architect** (searched in English and
+  Spanish). The RTF profile's "Western States" mention suggests it may be
+  in the US Southwest rather than Latin America. Family confirmation needed
+  for location and year.
+- **Sidney Cannery** (hidden page) — elevation drawing from the 2013 repo.
+  The historic Saanich Canning Co. cannery (Sidney BC, 1904–1942) was
+  demolished decades ago; a modern "Cannery-style" building at Beacon Ave &
+  First St is part of the Sidney Waterfront Inn & Suites
+  (<https://www.sidneywaterfrontinn.com/hotel-history/>). No public source
+  names its architect — attribution unconfirmed.
+- **Garden Residence** (hidden page) — single archive photo
+  (`back-yard.jpg` from the 2013 repo). Name/location unknown.
+
+## Additional finds (hidden pages, need confirmation)
+
+- **Waterfront House** — Trends Ideas feature "All the better to bathe —
+  spacious master bathroom by Soren Rasmussen Architects": floor-to-ceiling
+  glazing, sea views from every room, Agape Spoon tub, raw concrete,
+  Pennsylvania bluestone, European white oak; "surrounding forest and rocky
+  foreshore". Possibly the Parker Island Residence or Sunshine Coast
+  Retreat under another name — do not double-count.
+  <https://trendsideas.com/stories/all-the-better-to-bathe-%C3%A2-spacious-master-bathroom-by-soren-rasmussen-architects>
+  (also in Trends book US2708, ca. 2011)
+- **Mathers Avenue accessory building, 2966 Mathers Ave, West Vancouver
+  (2020)** — "S. Rasmussen, Principal of SRA Architects Inc." presented at
+  the District of West Vancouver Board of Variance, Oct 21, 2020:
+  <https://westvancouver.ca/sites/default/files/dwv/assets/be-involved/Committees-Groups/Boards/Board-of-Variance/2020/October/2020%2010%2021%20SEVERED%20BOARD%20OF%20VARIANCE%20PACKAGE.pdf>
+- **Westmount Residence** — named only in one snippet of the RTF profile.
+- **Wilmar Residence proposal (2013)** — SRA named in the Vancouver
+  Heritage Commission agenda of Jan 21, 2013
+  (<https://vancouver.ca/docs/council/vher20130121ag.pdf>); the built 2015+
+  redevelopment was by Stuart Howard Architects — **not** SRA's work.
+
+## Firm details
+
+- Staff: Søren Rasmussen (Principal), Malcolm Candler (Associate,
+  <https://www.zoominfo.com/p/Malcolm-Candler/1184460746>), Lisa Kwan
+  (Intern Architect, <https://www.zoominfo.com/p/Lisa-Kwan/3285793095>).
+- Offices over time: #450 – 375 Water St (ca. 2007) → #120 – 1412 W 7th Ave
+  V6H 1C1 → 1550 Rand Ave V6P 3G2 (City of Vancouver business licence
+  #17-133454, issued Nov 30, 2016: <https://opengovca.com/vancouver-business/17-133454>).
+- Phone 604 681 4292 · srarch@srarch.net.
+- Name variants in records: "SRA Architect Inc.", "SRA Architects Inc.",
+  "Soren Rasmussen Architects Inc", "Soren Rasmussen Architect".
+
+## Accuracy notes
+
+- "Award winning" / "internationally recognized" wording originates from
+  the firm's own site (kept on the rebuilt site as its historical
+  self-description). The only concrete external award evidence is
+  jackchow.com's "several heritage awards" for the 1986 Sam Kee work.
+  Searches of Georgie, CARE, and AIBC/Lieutenant-Governor award records
+  found no Rasmussen entries.
+- No published obituary was found. No education, birthplace, immigration
+  date, or firm founding year could be recovered from public sources.
+
+## Open leads for the family
+
+1. **Wayback Machine** (from an unrestricted network):
+   `web.archive.org/web/*/srarch.net/*` — the portfolio pages and their
+   images. The CDX API lists every archived URL:
+   `web.archive.org/cdx/search/cdx?url=srarch.net&matchType=domain`
+2. **Vancouver open data** — issued building permits, query applicant
+   contains "Rasmussen": <https://opendata.vancouver.ca/explore/dataset/issued-building-permits/>
+3. **AIBC** — registration history: registration@aibc.ca (the online
+   directory isn't crawlable). Also the Fall 2006 *architectureBC* PDF has
+   a "Rasmussen name spelling error" correction worth checking.
+4. **LinkedIn** — <https://ca.linkedin.com/in/soren-rasmussen-09079213>
+   (education/career history not readable without login).
+5. **Trends Ideas** story (above) — full text names no location; the print
+   book US2708 may. Whoever can open trendsideas.com should check whether
+   the story identifies the house.
+6. **CBC longform** on the Sam Kee Building / Chow family may contain more
+   on the 1986 work: <https://newsinteractives.cbc.ca/longform/sam-kee-building-legacy-chow-family>
+7. Print archives: Vancouver Sun / The Province (1986–1995) for Sam Kee,
+   The Landing and Steamworks coverage — not online.
