@@ -76,9 +76,8 @@ export const projects: ProjectMeta[] = [
     title: "Collingwood Residence",
     location: "Vancouver, BC",
     type: "Private Residence",
-    year: "Georgie Award 1999",
     summary:
-      "The architect's own family home — Arts and Crafts craftsmanship under a great enveloping roof.",
+      "One of three homes Søren designed for his own family — house and garden made with equal care.",
     cover: {
       src: "/carousel/collingwood-street/back-yard.jpg",
       width: 1800,
@@ -290,11 +289,11 @@ export const projects: ProjectMeta[] = [
   },
   {
     slug: "bowen-island",
-    title: "Bowen Island",
+    title: "Bowen Island Residence",
     location: "Bowen Island, BC",
     type: "Private Residence",
-    summary: "A residence in Howe Sound, from the studio's original website.",
-    hidden: true,
+    summary:
+      "The Rasmussen family's residence in Howe Sound — one of three homes Søren designed for his family.",
   },
   {
     slug: "manitoba-street-office",
@@ -314,10 +313,10 @@ export const projects: ProjectMeta[] = [
   {
     slug: "kerrisdale-residence",
     title: "Kerrisdale Residence",
-    location: "Vancouver, BC",
+    location: "Kerrisdale, Vancouver",
     type: "Private Residence",
-    summary: "A Kerrisdale residence from the studio's original website.",
-    hidden: true,
+    summary:
+      "The Rasmussen family's Kerrisdale home — the childhood home of Søren's sons.",
   },
   {
     slug: "park-homes",

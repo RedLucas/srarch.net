@@ -249,11 +249,19 @@ Waterfront Hotel. Raw page captures and the full CDX index are
 preserved locally in the session scratchpad and can be re-fetched any
 time from web.archive.org.
 
-**Interpretation note**: the "Rasmussen Residence" (Georgie Award 1999,
-described in the firm's portfolio as Arts-and-Crafts inspired, entry
-planned around a copper beech) is presented on the site as the
-Collingwood Street family home — the family should confirm they are the
-same house.
+**Family homes (confirmed by Lucas Rasmussen, Aug 2026)**: Søren
+designed three houses for his own family — the Collingwood Residence
+(6475 Collingwood Street, Vancouver), the family's Kerrisdale home at
+2380 West 47th Avenue (his sons' childhood home — this is the
+"Kerrisdale Residence" of the original portfolio, whose gallery
+included a `Rasm-Back1.jpg`), and the Bowen Island residence (the
+"Bowen Island" portfolio page). Full street numbers are kept off the
+public pages out of courtesy to current owners. **Open question**: the
+Georgie Award 1999 went to "the Rasmussen Residence" (described in the
+firm's 2005 portfolio as Arts-and-Crafts inspired, entry planned around
+a large copper beech tree, great enveloping roof) — whether that names
+the Collingwood or the Kerrisdale house is unconfirmed, so the award is
+listed on the About page without being assigned to either.
 
 ## Original image recovery plan (now executed)
 

@@ -32,7 +32,7 @@ const values = [
   },
 ];
 
-const awards = [
+const awards: { project: string; honours: string; href?: string }[] = [
   {
     project: "The Landing",
     honours:
@@ -57,7 +57,6 @@ const awards = [
   {
     project: "Rasmussen Residence",
     honours: "Georgie Award 1999",
-    href: "/projects/collingwood-street-residence",
   },
   {
     project: "Longwood Pub",
@@ -133,7 +132,7 @@ export default function About() {
         <ul className="pb-4">
           {awards.map(({ project, honours, href }) => (
             <li key={project} className="pb-2">
-              <Link href={href}>{project}</Link>
+              {href ? <Link href={href}>{project}</Link> : project}
               <br />
               <span className="text-sm text-zinc-600">{honours}</span>
             </li>
