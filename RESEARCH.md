@@ -45,7 +45,7 @@ Per page:
 | `/projects/sobre-los-cerros` | Description written from the family's photos only — **no external source exists** | This repo's gallery |
 | `/projects/waterfront-house` (hidden) | Glazing, materials, master-bath details, publication | Trends Ideas story + book US2708 |
 | `/projects/sidney-cannery` (hidden) | Drawing; historic-cannery context; possible built referent | 2013 repo (drawing); onthisspot.ca / hmdb.org; sidneywaterfrontinn.com |
-| `/projects/garden-residence` (hidden) | Photo only — identity unknown | 2013 repo (`back-yard.jpg`) |
+| `/projects/collingwood-street-residence` | Photo from 2013 repo (`back-yard.jpg`); identity confirmed by the family | Family identification (Lucas Rasmussen, Aug 2026): the Rasmussen family home at 6475 Collingwood Street, Vancouver, designed and built by Søren. Full address kept out of the public page deliberately (the house has since changed hands) |
 | `/projects/mathers-avenue-residence` (hidden) | 2020 variance hearing, address | District of West Vancouver Board of Variance package |
 | `/projects/wilmar-residence` (hidden) | 2013 Heritage Commission mention; later scheme not SRA's | Vancouver Heritage Commission agenda; press on the 2015+ redevelopment |
 | `/about` | Firm description; scope/regions; heritage-work narrative; office history; values trio | srarch.net homepage description (via ZoomInfo); RTF profile; project sources above; business-licence + FOI records; 2013 mockup |
@@ -136,8 +136,13 @@ Attribution from the firm's own site — the surviving portfolio URL (above).
   First St is part of the Sidney Waterfront Inn & Suites
   (<https://www.sidneywaterfrontinn.com/hotel-history/>). No public source
   names its architect — attribution unconfirmed.
-- **Garden Residence** (hidden page) — single archive photo
-  (`back-yard.jpg` from the 2013 repo). Name/location unknown.
+- **Collingwood Street Residence** (formerly the "Garden Residence"
+  placeholder) — single archive photo (`back-yard.jpg` from the 2013
+  repo). Identified by the family in August 2026 as the Rasmussens' own
+  home at 6475 Collingwood Street, Vancouver, designed and built by
+  Søren. Now a visible project; the public page gives the location only
+  as "Collingwood Street, Vancouver" out of courtesy to the current
+  owners.
 
 ## Additional finds (hidden pages, need confirmation)
 
