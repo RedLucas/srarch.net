@@ -181,16 +181,81 @@ Attribution from the firm's own site — the surviving portfolio URL (above).
 
 ## Accuracy notes
 
-- "Award winning" / "internationally recognized" wording originates from
-  the firm's own site (kept on the rebuilt site as its historical
-  self-description). The only concrete external award evidence is
-  jackchow.com's "several heritage awards" for the 1986 Sam Kee work.
-  Searches of Georgie, CARE, and AIBC/Lieutenant-Governor award records
-  found no Rasmussen entries.
+- "Award winning" is now substantiated by the firm's own recovered 2005
+  awards page (see the Wayback recovery section above) — six premiated
+  projects across BC Heritage, Vancouver Heritage, IDIBC, Georgie and
+  City of Nanaimo award programs. (Earlier caveats about unverifiable
+  awards are superseded.)
 - No published obituary was found. No education, birthplace, immigration
   date, or firm founding year could be recovered from public sources.
 
-## Image recovery plan
+## Wayback recovery — executed August 2026
+
+After network access to web.archive.org was enabled, the plan below was
+executed and far exceeded expectations. Recovered from the Internet
+Archive's captures of srarch.net:
+
+- **The complete WordPress-era portfolio** (captures 2016–2021): 25
+  project pages, giving the firm's own titles — including
+  "San Diego Spanish Revival" for Sobre Los Cerros, "Langley Residence"
+  for the Fahy Residence, and pages for Bowen Island, BTY/Manitoba St.
+  Office, Collingwood Residence, Hepworth, Kerrisdale, Longwood Pub,
+  Mainspace, Park Homes, Point Grey Renovation, Rail Cars, Rosie Bay
+  (Tofino), Sam Kee, Steamworks, Storm Mountain Lodge, Tsatsu Shores,
+  The Edge, Waterfront Hotel and Restaurant, Waterfront Pearl,
+  Waterfront Station Renovation, Whistler Cabin, and Film Studios
+  ("601").
+- **The 2005-era site's full text**: about, staff, news, current
+  projects, and every portfolio category page — the firm's own
+  descriptions now used on the project pages.
+- **The firm's own awards page** (2005), superseding earlier "no award
+  verifiable" caveats: The Landing — BC Heritage Award 1989, IDIBC
+  Silver Award 1989, Vancouver Heritage Award 1988; Sam Kee Building —
+  BC Heritage Award 1988, Vancouver Heritage Award 1988; SRA Office —
+  IDIBC Award 1989; Tsatsu Shores — Georgie Award 1997; **Rasmussen
+  Residence — Georgie Award 1999**; Longwood Pub — City of Nanaimo
+  Design Award 2000.
+- **~60 images**: the full Sunshine Coast Retreat gallery (13), the
+  Sobre set, Waterfront Station interiors + restoration drawings (8),
+  Rosie Bay/Tofino (3), Langley/Fahy (1), Waterfront Pearl (1), The
+  Edge (1), the Emily Carr rendering, the SRA office interiors (2), and
+  the original "Soren RASMUSSEN architects inc." wordmark.
+
+**Identities resolved by the recovery:**
+
+- The Trends-published "waterfront house" **is the Sunshine Coast
+  Retreat** — recovered photo `Sunshine-Coast-03` is exactly the
+  published bathroom (freestanding tub, bifolding doors to terrace).
+  The separate hidden Waterfront House page was merged accordingly.
+- Sobre Los Cerros is in **San Diego, California** (firm's own title).
+- The Sidney Cannery drawing is the **Sidney Waterfront** development,
+  **completed summer 2004** (firm's commercial portfolio text).
+- The four unattributed DSCN photos are **Waterfront Station**
+  interiors (concourse + new glazed elevator, 2007–09 EXIF).
+- 2005 staff (for the record; not published on the site): Søren
+  Rasmussen (Principal, MAIBC, MAAA, MRAIC), Malcolm Candler
+  (Associate, MAIBC), Melissa Keith (Administrator), Lisa Kwan (Intern
+  Architect), Narjes Miri (Graduate Architect), Peter Navin (Architect,
+  Aus.), John Coffey (Architectural Technician).
+
+**Still missing** (referenced by the original pages but never captured
+by the Archive — candidates for the family archive): Collingwood-01…04;
+Parker-02…04; Tsatsu-01…03; Edge-01; Steamworks-01/02/05;
+Storm-01…03; Pearl-01…03; Longwood-01/03/04; Sam-03/07 and P1050002;
+Whistle-01/03/04; Kerrisdale-03/04 and Rasm-Back1; Hepworth-01; BTY-02;
+Mainspace-01; Park-01…03; Fahy-02…04; the Bowen Island HE8A-series; and
+the DSCN sets for Rail Cars, Film Studios, Point Grey and the
+Waterfront Hotel. Raw page captures and the full CDX index are
+preserved locally in the session scratchpad and can be re-fetched any
+time from web.archive.org.
+
+**Interpretation note**: the "Rasmussen Residence" (Georgie Award 1999,
+described in the firm's portfolio as Arts-and-Crafts inspired, entry
+planned around a copper beech) is presented on the site as the
+Collingwood Street family home — the family should confirm they are the
+same house.
+
+## Original image recovery plan (now executed)
 
 The text-only project pages (Sam Kee, The Landing, Steamworks, McLean
 Hall, Parker Island) lack photos only because the research session's

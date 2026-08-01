@@ -1,14 +1,110 @@
 {
   "description": [
-    "A retreat on British Columbia's Sunshine Coast, counted by the studio among its award-winning work. Heavy timber post-and-beam construction rises from a base of local stone, with floor-to-ceiling glazing wrapping the main living pavilion so the house reads as a lantern in the forest after dark.",
-    "Exposed Douglas fir rafters carry a soaring gabled roof over the great room, while a flat-roofed concrete-and-cedar wing steps quietly behind it. Terraces and a pool extend the living space into the landscape — architecture shaped by the Coast's geography of rock, forest and water."
+    "A family retreat on a remote, heavily wooded coastal site on British Columbia's Sunshine Coast — conceived as a group of contemporary buildings stepping down to the shore. Heavy timber and local stone carry floor-to-ceiling glazing, so that at dusk the main pavilion reads as a lantern against the forest.",
+    "Every principal room holds the sea view. The master bath opens through two sets of bifolding doors to a private elevated terrace, its freestanding sculptural tub set against the water — a room featured internationally by Trends. Board-formed concrete stairs, a gallery over the lap pool, and glass balustrades cantilevered above the rocky foreshore carry the palette of raw concrete, bluestone and white oak through the whole house."
   ],
-  "note": "Named among the firm's award-winning projects in its own materials; the specific award has not yet been identified.",
+  "note": "Named among the firm's award-winning projects in its own materials. Gallery recovered from the studio's original website via the Internet Archive.",
   "slides": [
     {
       "image": {
-        "src": "/carousel/sunshine-coast.jpg",
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-01.jpg",
         "alt": "Sunshine Coast Retreat — timber, stone and glass living pavilion glowing at dusk beside the pool terrace",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-04.jpg",
+        "alt": "Living room at dusk — fireplace, deep sofas and a panoramic sea view",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-06.jpg",
+        "alt": "The house seen from the driftwood beach below",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-07.jpg",
+        "alt": "Cantilevered glazed volume among the cedars",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-08.jpg",
+        "alt": "Stone-walled entry court with concrete canopy",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-02.jpg",
+        "alt": "Board-formed concrete stair rising through the main hall",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-03.jpg",
+        "alt": "Master bath — freestanding sculptural tub beside bifolding glass doors to the terrace",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-13.jpg",
+        "alt": "Pool terrace and glazed corner of the living pavilion",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-18.jpg",
+        "alt": "Study nook framed in concrete and fir",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-19.jpg",
+        "alt": "Glass balustrade carried on a concrete column over the rocky foreshore",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-20.jpg",
+        "alt": "Gallery hall above the lap pool",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-21.jpg",
+        "alt": "Concrete stair void with fir ceiling",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sunshine-coast-retreat/Sunshine-Coast-11.jpg",
+        "alt": "Hand-drawn site and floor plan on the terraced shore",
         "width": 1800,
         "height": 1200
       }

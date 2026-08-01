@@ -32,6 +32,40 @@ const values = [
   },
 ];
 
+const awards = [
+  {
+    project: "The Landing",
+    honours:
+      "BC Heritage Award 1989 · Interior Design Institute of BC Silver Award 1989 · Vancouver Heritage Award 1988",
+    href: "/projects/the-landing",
+  },
+  {
+    project: "Sam Kee Building",
+    honours: "BC Heritage Award 1988 · Vancouver Heritage Award 1988",
+    href: "/projects/sam-kee-building",
+  },
+  {
+    project: "Soren Rasmussen Architects Office",
+    honours: "Interior Design Institute of BC Award 1989",
+    href: "/projects/sra-office",
+  },
+  {
+    project: "Tsatsu Shores",
+    honours: "Georgie Award 1997",
+    href: "/projects/tsatsu-shores",
+  },
+  {
+    project: "Rasmussen Residence",
+    honours: "Georgie Award 1999",
+    href: "/projects/collingwood-street-residence",
+  },
+  {
+    project: "Longwood Pub",
+    honours: "City of Nanaimo Design Award 2000",
+    href: "/projects/longwood-pub",
+  },
+];
+
 export default function About() {
   return (
     <div className="container px-3 pb-10">
@@ -45,27 +79,40 @@ export default function About() {
           and interior design.
         </p>
         <p className="pb-4">
-          Founded and led by Søren Rasmussen, the Vancouver studio produced
-          unique, client-based designs ranging from the traditional to the
-          modern, for commercial and residential projects across British
-          Columbia, Alberta and the western United States.
+          Founded and led by Søren Rasmussen — MAIBC, MAAA, MRAIC — the
+          Vancouver practice provided comprehensive architectural, planning
+          and interior design services on office, residential and commercial
+          developments throughout British Columbia and Alberta, particularly
+          in Vancouver and on Vancouver Island, with work reaching into the
+          western United States. In the firm&apos;s own words, its projects
+          were &quot;often unique in nature and highly demanding throughout
+          the design and approvals process&quot; — met with creativity and
+          originality, cost-effective solutions, and strict attention to
+          detail.
         </p>
         <p className="pb-4">
-          The practice left a lasting mark on Vancouver&apos;s heritage fabric.
-          In 1986 Søren designed the rehabilitation of the{" "}
+          The practice left a lasting mark on Vancouver&apos;s heritage
+          fabric. In 1986 Søren designed the rehabilitation of the{" "}
           <Link href="/projects/sam-kee-building">Sam Kee Building</Link> — the
           narrowest commercial building in the world — for Jack Chow in
-          Chinatown. In 1988 he converted the landmark Kelly Douglas warehouse
-          in Gastown into{" "}
-          <Link href="/projects/the-landing">The Landing</Link>, and in 1995 he
-          returned to its foot as architect and co-founder of{" "}
-          <Link href="/projects/steamworks-brew-pub">Steamworks Brew Pub</Link>.
-          In the early 1990s he designed the interior of{" "}
-          <Link href="/projects/mclean-hall">McLean Hall</Link> at St.
-          George&apos;s School. Alongside this civic work ran a lifetime of
-          houses — retreats and waterfront residences shaped by the coast&apos;s
-          geography of rock, forest and water — and the studio remained active
-          until Søren&apos;s passing in December 2022.
+          Chinatown. In 1988–89 he converted the landmark Gastown warehouse at
+          375 Water Street into{" "}
+          <Link href="/projects/the-landing">The Landing</Link>, kept his own{" "}
+          <Link href="/projects/sra-office">award-winning studio</Link> inside
+          it, and in 1995 returned to its foot as architect and co-founder of{" "}
+          <Link href="/projects/steamworks-brew-pub">Steamworks Brew Pub</Link>
+          . Alongside this civic work ran schools and colleges, hotels in the
+          Rockies, seniors&apos; communities, film studios — and a lifetime of
+          houses, from{" "}
+          <Link href="/projects/sunshine-coast-retreat">
+            a family retreat on the Sunshine Coast
+          </Link>{" "}
+          to{" "}
+          <Link href="/projects/sobre-los-cerros">
+            a Spanish Revival villa in San Diego
+          </Link>
+          . The studio remained active until Søren&apos;s passing in December
+          2022.
         </p>
       </div>
 
@@ -82,6 +129,17 @@ export default function About() {
       </div>
 
       <div className="max-w-prose">
+        <h2 className="pb-3">Awards</h2>
+        <ul className="pb-4">
+          {awards.map(({ project, honours, href }) => (
+            <li key={project} className="pb-2">
+              <Link href={href}>{project}</Link>
+              <br />
+              <span className="text-sm text-zinc-600">{honours}</span>
+            </li>
+          ))}
+        </ul>
+
         <h2 className="pb-3">The Studio</h2>
         <p className="pb-4 text-sm text-zinc-600">
           Over the years the studio worked from #450 – 375 Water Street in
@@ -99,8 +157,8 @@ export default function About() {
 
       <div className="pt-6">
         <Image
-          src="/carousel/sidney-cannery/elevation.png"
-          alt="Hand-coloured street elevation drawing of the Sidney Cannery by Soren Rasmussen Architects"
+          src="/carousel/sidney-waterfront/elevation.png"
+          alt="Hand-coloured street elevation drawing of the Sidney Waterfront project by Soren Rasmussen Architects"
           width={746}
           height={208}
           className="w-full max-w-4xl"

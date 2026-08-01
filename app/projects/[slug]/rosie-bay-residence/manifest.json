@@ -1,0 +1,33 @@
+{
+  "description": [
+    "A waterfront residence at Rosie Bay near Tofino, on Vancouver Island's outer coast. Cast-in-place concrete and clear fir meet floor-to-ceiling glazing beneath warm wood ceilings; a double-sided concrete fireplace divides the living and dining rooms, and the kitchen is fitted in fir millwork with stone counters.",
+    "The photographs survive in the studio's archive, dated 2005."
+  ],
+  "note": "Gallery recovered from the studio's original website via the Internet Archive.",
+  "slides": [
+    {
+      "image": {
+        "src": "/carousel/rosie-bay-residence/Rosie-05.jpg",
+        "alt": "Rosie Bay Residence — concrete fireplace, Eames lounge chair and forest view",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/rosie-bay-residence/Rosie-11.jpg",
+        "alt": "Evening lounge — concrete walls, wood ceiling and soft light",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/rosie-bay-residence/Tofino-Kitchen.jpg",
+        "alt": "Kitchen fitted in clear-grain fir with stone counters",
+        "width": 1800,
+        "height": 1194
+      }
+    }
+  ]
+}
