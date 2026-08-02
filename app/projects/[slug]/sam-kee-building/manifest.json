@@ -1,9 +1,26 @@
 {
   "description": [
-    "In 1986, Soren Rasmussen designed the heritage rehabilitation of the Sam Kee Building at 8 West Pender Street — famous as the narrowest commercial building in the world, certified by Guinness World Records. Built in 1913 on the six-foot strip left when Pender Street was widened, the building was purchased in 1985 by Jack Chow of Jack Chow Insurance, who engaged Rasmussen to bring it back to life.",
-    "The rehabilitation restored the slender steel-framed landmark, rebuilt the reinforced glass sidewalk blocks that daylight the basement areaway beneath Pender Street, and coincided with the Jack Chow Insurance neon sign — one of the first signs to bring neon back to Chinatown. The project garnered several heritage awards, and the building remains one of Chinatown's best-loved landmarks.",
+    "In 1986, Soren Rasmussen designed the heritage rehabilitation of the Sam Kee Building at 8 West Pender Street — famous as the narrowest commercial building in the world, certified by Guinness World Records. Built in 1913 on the thin slice of land left when Pender Street was widened, the building was purchased in 1985 by Jack Chow of Jack Chow Insurance, who engaged Rasmussen to bring it back to life.",
+    "The rehabilitation restored the slender steel-framed landmark, rebuilt the reinforced glass sidewalk blocks that daylight the basement areaway beneath Pender Street, and coincided with the Jack Chow Insurance neon sign — one of the first signs to bring neon back to Chinatown. The project received the BC Heritage Award and the Vancouver Heritage Award in 1988, and the building remains one of Chinatown's best-loved landmarks.",
     "The studio's relationship with the building continued for a quarter century: in 2011 the firm designed further heritage alterations, combining its floors into a single office while restoring the exterior."
   ],
-  "note": "Photography for this project has not yet been recovered from the archives.",
-  "slides": []
+  "note": "Building photographs: 李月文, May 2024, CC BY-SA 4.0, via Wikimedia Commons. The studio's own project photography has not yet been recovered.",
+  "slides": [
+    {
+      "image": {
+        "src": "/carousel/sam-kee-building/sam-kee-front.jpg",
+        "alt": "Sam Kee Building — the six-foot-deep Pender Street facade with its bay windows and neon",
+        "width": 1800,
+        "height": 715
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sam-kee-building/sam-kee-side.jpg",
+        "alt": "Side view showing the building's famous narrowness against its neighbour",
+        "width": 1402,
+        "height": 1800
+      }
+    }
+  ]
 }

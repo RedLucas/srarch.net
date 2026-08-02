@@ -1,4 +1,4 @@
-# Research notes — recovering Soren Rasmussen Architects Inc.
+# Research notes — recovering Soren Rasmussen Architects
 
 This file documents what was recovered about the firm and its projects, the
 sources behind every claim on the rebuilt site, and the leads that remain
@@ -15,22 +15,22 @@ and press coverage.
 Everything added to the site in the August 2026 rebuild traces to one of
 four kinds of source:
 
-1. **The family's own repos** — this repo's pre-existing images
-   (`sunshine-coast.jpg`, `sobre.jpg` + the Sobre Los Cerros gallery,
-   `waterfront.jpg`) and the 2013
-   [Soren-Rasmussen-Architects](https://github.com/RedLucas/Soren-Rasmussen-Architects)
-   repo (SRA logo SVG, the Sidney Cannery elevation drawing
-   `working-files/sidney.png`, the `back-yard.jpg` photo, and the About
-   mockup with the LEED Certified / Simplicity / Worldwide values).
+1. **The family's own repositories** — this repository's pre-existing images
+    (`sunshine-coast.jpg`, `sobre.jpg` + the Sobre Los Cerros gallery,
+    `waterfront.jpg`) and the 2013
+    [Soren-Rasmussen-Architects](https://github.com/RedLucas/Soren-Rasmussen-Architects)
+    repository (SRA logo SVG, the Sidney Cannery elevation drawing
+    `working-files/sidney.png`, the `back-yard.jpg` photo, and the About
+    mockup with the LEED Certified / Simplicity / Worldwide values).
 2. **Traces of the original srarch.net** preserved by search indexes and
-   scrapers (homepage title and description, the `/portfolio/` URL
-   pattern, the Parker Island Residence page, the site footer).
+    scrapers (homepage title and description, the `/portfolio/` URL
+    pattern, the Parker Island Residence page, the site footer).
 3. **Public records and institutional pages** — Canadian Register of
-   Historic Places, City of Vancouver licence/FOI/heritage documents,
-   District of West Vancouver Board of Variance, St. George's School.
+    Historic Places, City of Vancouver licence/FOI/heritage documents,
+    District of West Vancouver Board of Variance, St. George's School.
 4. **Press and reference works** — Business in Vancouver, Vancouver
-   Courier (via Vancouver Is Awesome), the Changing Vancouver history
-   blog, *Exploring Vancouver* (Kalman & Ward), Trends Ideas, Wikipedia.
+    Courier (via Vancouver Is Awesome), the Changing Vancouver history
+    blog, *Exploring Vancouver* (Kalman & Ward), Trends Ideas, Wikipedia.
 
 Per page:
 
@@ -41,11 +41,11 @@ Per page:
 | `/projects/steamworks-brew-pub` | 1995 retrofit; co-founder with Eli Gershkovitch; 1997 buy-out; steam-brewing detail | Business in Vancouver; Vancouver Courier archive |
 | `/projects/mclean-hall` | Early-1990s interior; David McLean commission; hall's role at the school | St. George's School "Builders" page |
 | `/projects/parker-island-residence` | Existence + island location | Surviving srarch.net portfolio URL; Wikipedia (island only) |
-| `/projects/sunshine-coast-retreat` | "Named among the firm's award-winning projects" framing | RTF Top-100 profile (paraphrasing the firm's own site); photo already in this repo |
-| `/projects/sobre-los-cerros` | Description written from the family's photos only — **no external source exists** | This repo's gallery |
+| `/projects/sunshine-coast-retreat` | "Named among the firm's award-winning projects" framing | RTF Top-100 profile (paraphrasing the firm's own site); photo already in this repository |
+| `/projects/sobre-los-cerros` | Description written from the family's photos only — **no external source exists** | This repository's gallery |
 | `/projects/waterfront-house` (hidden) | Glazing, materials, master-bath details, publication | Trends Ideas story + book US2708 |
-| `/projects/sidney-cannery` (hidden) | Drawing; historic-cannery context; possible built referent | 2013 repo (drawing); onthisspot.ca / hmdb.org; sidneywaterfrontinn.com |
-| `/projects/collingwood-street-residence` | Photo from 2013 repo (`back-yard.jpg`); identity confirmed by the family | Family identification (Lucas Rasmussen, Aug 2026): the Rasmussen family home at 6475 Collingwood Street, Vancouver, designed and built by Søren. Full address kept out of the public page deliberately (the house has since changed hands) |
+| `/projects/sidney-cannery` (hidden) | Drawing; historic-cannery context; possible built referent | 2013 repository (drawing); onthisspot.ca / hmdb.org; sidneywaterfrontinn.com |
+| `/projects/collingwood-street-residence` | Photo from 2013 repository (`back-yard.jpg`); identity confirmed by the family | Family identification (Lucas Rasmussen, Aug 2026): the Rasmussen family home at 6475 Collingwood Street, Vancouver, designed and built by Søren. Full address kept out of the public page deliberately (the house has since changed hands) |
 | `/projects/mathers-avenue-residence` (hidden) | 2020 variance hearing, address | District of West Vancouver Board of Variance package |
 | `/projects/wilmar-residence` (hidden) | 2013 Heritage Commission mention; later scheme not SRA's | Vancouver Heritage Commission agenda; press on the 2015+ redevelopment |
 | `/about` | Firm description; scope/regions; heritage-work narrative; office history; values trio | srarch.net homepage description (via ZoomInfo); RTF profile; project sources above; business-licence + FOI records; 2013 mockup |
@@ -63,7 +63,7 @@ Per page:
   `http://srarch.net/portfolio/parker-island-residence/`
 - Site-wide footer block (from the indexed snippet of that page):
   *"SRA Architect Inc. #120 - 1412 W 7th Avenue, Vancouver BC V6H1C1,
-  T 604 681 4292, E srarch@srarch.net"*
+  T 604 681 4292, E `srarch@srarch.net`"*
 - Firm profile text preserved in Re-Thinking The Future's "Top 100
   Architects in Vancouver" (page 9, cites srarch.net): unique client-based
   designs from traditional to modern; awards including "Sunshine Coast
@@ -122,15 +122,15 @@ Attribution from the firm's own site — the surviving portfolio URL (above).
 
 ## Projects from the firm's archive (no public record found)
 
-- **Sunshine Coast Retreat** — photo in this repo
+- **Sunshine Coast Retreat** — photo in this repository
   (`public/carousel/sunshine-coast.jpg`); named as award-winning in the RTF
   profile. No award program or press coverage found.
-- **Sobre Los Cerros** — 20 photos in this repo. **No public web record of
+- **Sobre Los Cerros** — 20 photos in this repository. **No public web record of
   this project exists under any architect** (searched in English and
   Spanish). The RTF profile's "Western States" mention suggests it may be
   in the US Southwest rather than Latin America. Family confirmation needed
   for location and year.
-- **Sidney Cannery** (hidden page) — elevation drawing from the 2013 repo.
+- **Sidney Cannery** (hidden page) — elevation drawing from the 2013 repository.
   The historic Saanich Canning Co. cannery (Sidney BC, 1904–1942) was
   demolished decades ago; a modern "Cannery-style" building at Beacon Ave &
   First St is part of the Sidney Waterfront Inn & Suites
@@ -138,7 +138,7 @@ Attribution from the firm's own site — the surviving portfolio URL (above).
   names its architect — attribution unconfirmed.
 - **Collingwood Street Residence** (formerly the "Garden Residence"
   placeholder) — single archive photo (`back-yard.jpg` from the 2013
-  repo). Identified by the family in August 2026 as the Rasmussens' own
+  repository). Identified by the family in August 2026 as the Rasmussens' own
   home at 6475 Collingwood Street, Vancouver, designed and built by
   Søren. Now a visible project; the public page gives the location only
   as "Collingwood Street, Vancouver" out of courtesy to the current
@@ -175,22 +175,95 @@ Attribution from the firm's own site — the surviving portfolio URL (above).
 - Offices over time: #450 – 375 Water St (ca. 2007) → #120 – 1412 W 7th Ave
   V6H 1C1 → 1550 Rand Ave V6P 3G2 (City of Vancouver business licence
   #17-133454, issued Nov 30, 2016: <https://opengovca.com/vancouver-business/17-133454>).
-- Phone 604 681 4292 · srarch@srarch.net.
+- Phone 604 681 4292 · `srarch@srarch.net`.
 - Name variants in records: "SRA Architect Inc.", "SRA Architects Inc.",
   "Soren Rasmussen Architects Inc", "Soren Rasmussen Architect".
 
 ## Accuracy notes
 
-- "Award winning" / "internationally recognized" wording originates from
-  the firm's own site (kept on the rebuilt site as its historical
-  self-description). The only concrete external award evidence is
-  jackchow.com's "several heritage awards" for the 1986 Sam Kee work.
-  Searches of Georgie, CARE, and AIBC/Lieutenant-Governor award records
-  found no Rasmussen entries.
+- "Award winning" is now substantiated by the firm's own recovered 2005
+  awards page (see the Wayback recovery section above) — six premiated
+  projects across BC Heritage, Vancouver Heritage, IDIBC, Georgie and
+  City of Nanaimo award programs. (Earlier caveats about unverifiable
+  awards are superseded.)
 - No published obituary was found. No education, birthplace, immigration
   date, or firm founding year could be recovered from public sources.
 
-## Image recovery plan
+## Wayback recovery — executed August 2026
+
+After network access to web.archive.org was enabled, the plan below was
+executed and far exceeded expectations. Recovered from the Wayback
+Machine's captures of srarch.net:
+
+- **The complete WordPress-era portfolio** (captures 2016–2021): 25
+  project pages, giving the firm's own titles — including
+  "San Diego Spanish Revival" for Sobre Los Cerros, "Langley Residence"
+  for the Fahy Residence, and pages for Bowen Island, BTY/Manitoba St.
+  Office, Collingwood Residence, Hepworth, Kerrisdale, Longwood Pub,
+  Mainspace, Park Homes, Point Grey Renovation, Rail Cars, Rosie Bay
+  (Tofino), Sam Kee, Steamworks, Storm Mountain Lodge, Tsatsu Shores,
+  The Edge, Waterfront Hotel and Restaurant, Waterfront Pearl,
+  Waterfront Station Renovation, Whistler Cabin, and Film Studios
+  ("601").
+- **The 2005-era site's full text**: about, staff, news, current
+  projects, and every portfolio category page — the firm's own
+  descriptions now used on the project pages.
+- **The firm's own awards page** (2005), superseding earlier "no award
+  verifiable" caveats: The Landing — BC Heritage Award 1989, IDIBC
+  Silver Award 1989, Vancouver Heritage Award 1988; Sam Kee Building —
+  BC Heritage Award 1988, Vancouver Heritage Award 1988; SRA Office —
+  IDIBC Award 1989; Tsatsu Shores — Georgie Award 1997; **Rasmussen
+  Residence — Georgie Award 1999**; Longwood Pub — City of Nanaimo
+  Design Award 2000.
+- **~60 images**: the full Sunshine Coast Retreat gallery (13), the
+  Sobre set, Waterfront Station interiors + restoration drawings (8),
+  Rosie Bay/Tofino (3), Langley/Fahy (1), Waterfront Pearl (1), The
+  Edge (1), the Emily Carr rendering, the SRA office interiors (2), and
+  the original "Soren RASMUSSEN architects inc." wordmark.
+
+**Identities resolved by the recovery:**
+
+- The Trends-published "waterfront house" **is the Sunshine Coast
+  Retreat** — recovered photo `Sunshine-Coast-03` is exactly the
+  published bathroom (freestanding tub, bifolding doors to terrace).
+  The separate hidden Waterfront House page was merged accordingly.
+- Sobre Los Cerros is in **San Diego, California** (firm's own title).
+- The Sidney Cannery drawing is the **Sidney Waterfront** development,
+  **completed summer 2004** (firm's commercial portfolio text).
+- The four unattributed DSCN photos are **Waterfront Station**
+  interiors (concourse + new glazed elevator, 2007–09 EXIF).
+- 2005 staff (for the record; not published on the site): Søren
+  Rasmussen (Principal, MAIBC, MAAA, MRAIC), Malcolm Candler
+  (Associate, MAIBC), Melissa Keith (Administrator), Lisa Kwan (Intern
+  Architect), Narjes Miri (Graduate Architect), Peter Navin (Architect,
+  Aus.), John Coffey (Architectural Technician).
+
+**Still missing** (referenced by the original pages but never captured
+by the Archive — candidates for the family archive): Collingwood-01…04;
+Parker-02…04; Tsatsu-01…03; Edge-01; Steamworks-01/02/05;
+Storm-01…03; Pearl-01…03; Longwood-01/03/04; Sam-03/07 and P1050002;
+Whistle-01/03/04; Kerrisdale-03/04 and Rasm-Back1; Hepworth-01; BTY-02;
+Mainspace-01; Park-01…03; Fahy-02…04; the Bowen Island HE8A-series; and
+the DSCN sets for Rail Cars, Film Studios, Point Grey and the
+Waterfront Hotel. Raw page captures and the full CDX index are
+preserved locally in the session scratchpad and can be re-fetched any
+time from web.archive.org.
+
+**Family homes (confirmed by Lucas Rasmussen, Aug 2026)**: Søren
+designed three houses for his own family — the Collingwood Residence
+(6475 Collingwood Street, Vancouver), the family's Kerrisdale home at
+2380 West 47th Avenue (his sons' childhood home — this is the
+"Kerrisdale Residence" of the original portfolio, whose gallery
+included a `Rasm-Back1.jpg`), and the Bowen Island residence (the
+"Bowen Island" portfolio page). Full street numbers are kept off the
+public pages out of courtesy to current owners. **Open question**: the
+Georgie Award 1999 went to "the Rasmussen Residence" (described in the
+firm's 2005 portfolio as Arts-and-Crafts inspired, entry planned around
+a large copper beech tree, great enveloping roof) — whether that names
+the Collingwood or the Kerrisdale house is unconfirmed, so the award is
+listed on the About page without being assigned to either.
+
+## Original image recovery plan (now executed)
 
 The text-only project pages (Sam Kee, The Landing, Steamworks, McLean
 Hall, Parker Island) lack photos only because the research session's
@@ -244,20 +317,20 @@ family's own material and need no credit.
 ## Open leads for the family
 
 1. **Wayback Machine** (from an unrestricted network):
-   `web.archive.org/web/*/srarch.net/*` — the portfolio pages and their
-   images. The CDX API lists every archived URL:
-   `web.archive.org/cdx/search/cdx?url=srarch.net&matchType=domain`
+    `web.archive.org/web/*/srarch.net/*` — the portfolio pages and their
+    images. The CDX API lists every archived URL:
+    `web.archive.org/cdx/search/cdx?url=srarch.net&matchType=domain`
 2. **Vancouver open data** — issued building permits, query applicant
-   contains "Rasmussen": <https://opendata.vancouver.ca/explore/dataset/issued-building-permits/>
-3. **AIBC** — registration history: registration@aibc.ca (the online
-   directory isn't crawlable). Also the Fall 2006 *architectureBC* PDF has
-   a "Rasmussen name spelling error" correction worth checking.
+    contains "Rasmussen": <https://opendata.vancouver.ca/explore/dataset/issued-building-permits/>
+3. **AIBC** — registration history: `registration@aibc.ca` (the online
+    directory isn't crawlable). Also the Fall 2006 *architectureBC* PDF has
+    a "Rasmussen name spelling error" correction worth checking.
 4. **LinkedIn** — <https://ca.linkedin.com/in/soren-rasmussen-09079213>
-   (education/career history not readable without login).
+    (education/career history not readable without login).
 5. **Trends Ideas** story (above) — full text names no location; the print
-   book US2708 may. Whoever can open trendsideas.com should check whether
-   the story identifies the house.
+    book US2708 may. Whoever can open trendsideas.com should check whether
+    the story identifies the house.
 6. **CBC longform** on the Sam Kee Building / Chow family may contain more
-   on the 1986 work: <https://newsinteractives.cbc.ca/longform/sam-kee-building-legacy-chow-family>
+    on the 1986 work: <https://newsinteractives.cbc.ca/longform/sam-kee-building-legacy-chow-family>
 7. Print archives: Vancouver Sun / The Province (1986–1995) for Sam Kee,
-   The Landing and Steamworks coverage — not online.
+    The Landing and Steamworks coverage — not online.

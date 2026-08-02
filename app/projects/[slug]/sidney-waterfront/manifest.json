@@ -1,0 +1,18 @@
+{
+  "description": [
+    "Completed in the summer of 2004, this mixed-use development on Sidney's waterfront gathers a pub-restaurant, commercial retail units and hotel suites along the seaside high street, conceived to make the waterfront an attractive focal point for the town's commercial and tourism life.",
+    "The street elevation — gabled storefronts stepping toward a tall corner block carrying the \"Sidney Cannery\" name — recalls the Saanich Canning Company that anchored the town's harbour from 1904 to 1942."
+  ],
+  "note": "Elevation drawing from the studio's archive; the firm's photographs of the completed building have not yet been recovered.",
+  "slides": [
+    {
+      "image": {
+        "src": "/carousel/sidney-waterfront/elevation.png",
+        "alt": "Sidney Waterfront — hand-coloured street elevation of gabled storefronts and the corner cannery building",
+        "width": 746,
+        "height": 208,
+        "className": "py-20"
+      }
+    }
+  ]
+}

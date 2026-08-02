@@ -1,0 +1,25 @@
+{
+  "description": [
+    "The studio's own offices in The Landing, the renovated Gastown warehouse — recipient of an Interior Design Institute of BC Award in 1989.",
+    "Workstations occupy the north side, beside spectacular views to the North Shore; the principal's office and conference room sit on the interior behind glazed partitions that borrow the light. Mouldings and trim are exposed edge-grain fir, set against the rough finish of the original heavy timber and brickwork, both left exposed. A working fireplace by the workstations, on a diagonal axis from reception, gathers a small seating group for informal meetings."
+  ],
+  "note": "Photographs recovered from the studio's original website via the Internet Archive.",
+  "slides": [
+    {
+      "image": {
+        "src": "/carousel/sra-office/office-01.jpg",
+        "alt": "The studio in The Landing — drafting tables, fir trim, exposed brick and the harbour at night",
+        "width": 630,
+        "height": 497
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/sra-office/office-02.jpg",
+        "alt": "The working fireplace and seating group among the workstations",
+        "width": 302,
+        "height": 238
+      }
+    }
+  ]
+}

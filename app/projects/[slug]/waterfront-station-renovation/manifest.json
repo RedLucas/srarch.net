@@ -1,0 +1,81 @@
+{
+  "description": [
+    "Renovation work at Waterfront Station, the landmark 1914 neo-classical Canadian Pacific Railway terminal at the foot of Granville Street — today the hub joining SeaBus, SkyTrain and West Coast Express beneath one coffered concourse ceiling.",
+    "Recovered drawings detail the restoration of the grand concourse bays along Cordova Street — new glazing, painted steel and restored plasterwork within the original arched openings — while period photographs record the concourse interior and the fully glazed elevator added to make the heritage station accessible."
+  ],
+  "note": "Drawings and photographs recovered from the studio's original website and archive via the Internet Archive.",
+  "slides": [
+    {
+      "image": {
+        "src": "/carousel/waterfront.jpg",
+        "alt": "Waterfront Station — the 1914 CPR terminal's colonnaded Cordova Street facade",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/waterfront-station-renovation/concourse-01.jpg",
+        "alt": "The coffered concourse hall with its shops and lamps",
+        "width": 1800,
+        "height": 1553
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/waterfront-station-renovation/concourse-02.jpg",
+        "alt": "Concourse arches and terrazzo floor",
+        "width": 1350,
+        "height": 1800
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/waterfront-station-renovation/elevator-01.jpg",
+        "alt": "New fully glazed elevator set within the heritage fabric",
+        "width": 1350,
+        "height": 1800
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/waterfront-station-renovation/elevator-02.jpg",
+        "alt": "The glazed elevator and entrance seen across the concourse",
+        "width": 1800,
+        "height": 1350
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/waterfront-station-renovation/drawing-01.jpg",
+        "alt": "Restoration elevation of the east concourse bays",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/waterfront-station-renovation/drawing-02.jpg",
+        "alt": "Streetside patio study along the station's south face",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/waterfront-station-renovation/drawing-03.jpg",
+        "alt": "Coloured detail study of the arched concourse bays",
+        "width": 1800,
+        "height": 1200
+      }
+    },
+    {
+      "image": {
+        "src": "/carousel/waterfront-station-renovation/drawing-04.jpg",
+        "alt": "Elevation overlaid with a photograph of the restored bays",
+        "width": 1800,
+        "height": 1200
+      }
+    }
+  ]
+}
