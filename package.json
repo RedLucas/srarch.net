@@ -3,7 +3,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "serve out"
+    "start": "serve out",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint",
+    "stylelint": "stylelint \"app/**/*.css\""
   },
   "dependencies": {
     "@cloudflare/stream-react": "^1.8.0",
