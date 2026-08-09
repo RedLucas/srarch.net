@@ -26,7 +26,7 @@ const Carousel = ({ slides }: { slides: Slide[] }) => {
   const SwiperNavigationAsArrows = () => {
     const swiper = useSwiper();
     const buttonClassName =
-      "text-white border-white border-2 rounded-full w-10 h-10 hover:text-zinc-200 hover:border-zinc-200";
+      "text-white border-white border-2 rounded-full w-10 h-10 hover:text-zinc-200 hover:border-zinc-200 cursor-pointer";
     return (
       <div className="absolute right-3 bottom-3 z-50">
         <NavigationButton
